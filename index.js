@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 
 require('dotenv').config();                 // ✅ Load .env
-const GEMINI_KEY = process.env.GEMINI_KEY;  // ✅ Read key
+const GEMINI_KEY = AIzaSyCYPDNjb-ENQDjKpWodm-QKYCqZmq05R8k;  // ✅ Read key
 
 const app = express();
 app.use(express.json());
